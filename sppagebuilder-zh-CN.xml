@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" version="1.6" method="upgrade" client="site">
+    <name><![CDATA[SP Page Builder - zh-CN]]></name>
+    <author><![CDATA[Debao Zhang]]></author>
+    <authorurl>http://blog.debao.me</authorurl>
+	<copyright>Copyright (C)2015 Debao Zhang. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+    <version>1.0.3 </version>
+    <creationDate>01 Jul 2015</creationDate>
+    <description><![CDATA[Chinese (Simplified) translation file for SP Page Builder]]></description>
+	<fileset>
+		<files folder="admin" target="administrator/language/zh-CN">
+            <filename>zh-CN.com_sppagebuilder.ini</filename>
+            <filename>zh-CN.com_sppagebuilder.sys.ini</filename>
+            <filename>zh-CN.mod_sppagebuilder_icons.sys.ini</filename>
+            <filename>zh-CN.mod_sppagebuilder_admin_menu.ini</filename>
+            <filename>zh-CN.mod_sppagebuilder_admin_menu.sys.ini</filename>
+            <filename>zh-CN.mod_sppagebuilder_icons.ini</filename>
+		</files>
+		<files folder="site" target="language/zh-CN">
+			<filename>zh-CN.com_sppagebuilder.ini</filename>
+		</files>
+	</fileset>
+</extension>
+
